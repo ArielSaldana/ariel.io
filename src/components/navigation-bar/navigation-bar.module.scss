@@ -1,0 +1,30 @@
+.navigation-bar {
+display: block;
+}
+
+.navigation-bar-contents {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation-bar-contents .logo {
+  display: block;
+  height: 40px;
+}
+
+.navigation-bar-contents .logo img {
+  height: 40px;
+}
+
+.navigation-bar-contents nav {
+
+}
+
+.navigation-bar-contents  nav ol {
+  list-style: none;
+}
+
+.navigation-bar-contents  nav ol li {
+  display: inline-block;
+  margin-right: 30px;
+}
