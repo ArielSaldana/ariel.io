@@ -6,7 +6,7 @@ export default function NavigationBar() {
             <div className={styles.navigationBarContents}>
                 <div className={styles.logo}>
                     <a>
-                        <img src="/ariel-logo.svg" alt="Ariel Logo"/>
+                        <img src="/ariel-logo.svg" alt="Ariel Logo" />
                     </a>
 
                 </div>
