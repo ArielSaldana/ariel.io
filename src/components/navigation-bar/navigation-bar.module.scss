@@ -1,5 +1,5 @@
 .navigation-bar {
-display: block;
+  display: block;
 }
 
 .navigation-bar-contents {
@@ -20,11 +20,11 @@ display: block;
 
 }
 
-.navigation-bar-contents  nav ol {
+.navigation-bar-contents nav ol {
   list-style: none;
 }
 
-.navigation-bar-contents  nav ol li {
+.navigation-bar-contents nav ol li {
   display: inline-block;
   margin-right: 30px;
 }
