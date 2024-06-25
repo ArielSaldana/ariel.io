@@ -8,19 +8,23 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import Footer from "./components/footer";
 import { baseUrl } from "./sitemap";
 
+const name = "Ariel Saldana Mindmap";
+const title = "Ariel Saldana - Full Stack Engineer - New York City";
+const description =
+  "Ariel Saldana - Full Stack Engineer - New York City - This is my Blog.";
+
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: "Ariel Saldana - Full Stack Developer - New York City",
-    template: "%s | Ariel Saldana - Full Stack Developer - New York City",
+    default: title,
+    template: "%s | " + title,
   },
-  description:
-    "Ariel Saldana - Full Stack Developer - New York City - This is my Blog.",
+  description: description,
   openGraph: {
-    title: "Ariel Saldana Blog",
-    description: "This is my Blog.",
+    title: title,
+    description: description,
     url: baseUrl,
-    siteName: "Ariel Saldana Blog",
+    siteName: name,
     locale: "en_US",
     type: "website",
   },
