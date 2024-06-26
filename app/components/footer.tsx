@@ -1,6 +1,8 @@
 import XLogo from "@/public/assets/svg/twitterx.svg";
 import InstagramLogo from "@/public/assets/svg/instagram.svg";
 import GithubLogo from "@/public/assets/svg/github.svg";
+import LinkedInLogo from "@/public/assets/svg/linkedin.svg";
+
 
 const footerLinks = [
   {
@@ -15,12 +17,20 @@ const footerLinks = [
 
 const socialMediaLinks = [
   {
+    icon: LinkedInLogo,
+    link: "https://linkedin.com/in/arielsaldana",
+  },
+  {
     icon: XLogo,
     link: "https://x.com/arielsaldana_",
   },
   {
     icon: GithubLogo,
     link: "https://github.com/arielsaldana",
+  },
+  {
+    icon: XLogo,
+    link: "https://x.com/arielsaldana_",
   },
   {
     icon: InstagramLogo,
