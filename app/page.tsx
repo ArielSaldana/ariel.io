@@ -1,5 +1,5 @@
 import { BlogPosts } from "app/components/posts";
-import Logo from "@/app/assets/logo-white.svg";
+import Logo from "./components/logo";
 
 export default function Page() {
   return (
