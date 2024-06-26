@@ -3,7 +3,6 @@ import InstagramLogo from "@/public/assets/svg/instagram.svg";
 import GithubLogo from "@/public/assets/svg/github.svg";
 import LinkedInLogo from "@/public/assets/svg/linkedin.svg";
 
-
 const footerLinks = [
   {
     title: "rss",
@@ -27,10 +26,6 @@ const socialMediaLinks = [
   {
     icon: GithubLogo,
     link: "https://github.com/arielsaldana",
-  },
-  {
-    icon: XLogo,
-    link: "https://x.com/arielsaldana_",
   },
   {
     icon: InstagramLogo,
