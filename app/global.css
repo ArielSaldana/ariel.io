@@ -15,6 +15,7 @@
     --sh-jsxliterals: #6266d1;
     --sh-property: #e25a1c;
     --sh-entity: #e25a1c;
+    --sh-logo-fill: #000;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -24,6 +25,7 @@
         --sh-keyword: #f47067;
         --sh-string: #0fa295;
         --sh-bg: #0b0b0b;
+        --sh-logo-fill: #fff;
     }
     html {
         color-scheme: dark;
