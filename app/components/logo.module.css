@@ -1,0 +1,3 @@
+.logo svg path:first-child {
+    fill: var(--sh-logo-fill) !important;
+}
