@@ -1,6 +1,6 @@
-# Portfolio Blog Starter
+# https://ariel.io
 
-This is a porfolio site template complete with a blog. Includes:
+Portfolio / blog website using Next.js, Tailwind CSS, and MDX.
 
 - MDX and Markdown support
 - Optimized for SEO (sitemap, robots, JSON-LD schema)
