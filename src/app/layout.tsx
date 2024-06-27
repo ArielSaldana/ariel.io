@@ -12,7 +12,7 @@ import GoogleAnalytics from "./ga";
 const name = "Ariel Saldana Mindmap";
 const title = "Ariel Saldana - Full Stack Engineer - New York City";
 const description =
-  "Ariel Saldana - Full Stack Engineer - New York City - This is my Blog.";
+  "Ariel Saldana - Full Stack Engineer - New York City - This is my blog.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
