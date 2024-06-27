@@ -2,14 +2,15 @@
 
 @theme {
     --color-oj: #fc4d00;
+    --color-off-white: #f9f9f9;
     --color-neon-pink: oklch(71.7% 0.25 360);
     --color-neon-lime: oklch(91.5% 0.258 129);
     --color-neon-cyan: oklch(91.3% 0.139 195.8);
 }
 
 ::selection {
-    background-color: #47a3f3;
-    color: #fefefe;
+    background-color: var(--color-oj);
+    color: var(--color-off-white);
 }
 
 :root {
