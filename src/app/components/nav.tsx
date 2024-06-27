@@ -28,7 +28,7 @@ export function Navbar() {
                 <Link
                   key={path}
                   href={path}
-                  className={`transition-all hover:text-oj dark:hover:text-oj group-hover:text-neutral-200 dark:group-hover:text-neutral-700 flex align-middle relative py-2 px-3 hover:text-oj font-medium ${isActive ? "underline" : ""}`}
+                  className={`transition-all hover:text-oj dark:hover:text-oj group-hover:text-neutral-200 dark:group-hover:text-neutral-700 flex align-middle relative py-2 px-3 hover:text-oj font-medium ${isActive ? "underline text-oj" : ""}`}
                 >
                   {name}
                 </Link>
