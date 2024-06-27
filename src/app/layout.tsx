@@ -7,6 +7,7 @@ import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import Footer from "./components/footer";
 import { baseUrl } from "./sitemap";
+import GoogleAnalytics from "./ga";
 
 const name = "Ariel Saldana Mindmap";
 const title = "Ariel Saldana - Full Stack Engineer - New York City";
@@ -58,6 +59,7 @@ export default function RootLayout({
       )}
     >
       <head>
+        <GoogleAnalytics />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
