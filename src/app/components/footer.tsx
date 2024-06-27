@@ -72,7 +72,7 @@ export default function Footer() {
             </li>
           ))}
         </ul>
-        <ul className="font-sm mt-8 flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300">
+        <ul className="font-sm mt-8 flex flex-row space-x-3 space-y-0 text-neutral-600 md:space-x-4 dark:text-neutral-300">
           {socialMediaLinks.map((socialMediaLink) => (
             <li key={socialMediaLink.link} className="h-5 w-5">
               <a
