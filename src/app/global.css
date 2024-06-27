@@ -63,7 +63,8 @@ html {
 }
 
 .prose .anchor:after {
-    @apply text-neutral-300 dark:text-neutral-700;
+    transition-delay: 0;
+    @apply text-oj;
     content: "#";
 }
 
