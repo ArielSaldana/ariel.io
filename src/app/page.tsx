@@ -8,7 +8,7 @@ export default function Page() {
         <Logo />
       </div>
       <p className="mb-4">
-        {`I'm a full-stack software engineer based out of NYC, bringing over a decade of experience from traditional finance to the forefront of AI and Web3 technologies. My extensive background empowers my approach to innovative software solutions, seamlessly integrating complex systems from conventional financial frameworks into the cutting-edge spaces of AI and blockchain.`}
+        {`Hi! I'm Ariel, a full-stack Software Engineer and Computer Scientist based in NYC. With over a decade of experience in FinTech, I'm passionate about leveraging technology to create a positive impact. Currently, I'm diving into the exciting worlds of Decentralized Finance (DeFi) and Artificial Intelligence (AI), exploring innovative ways to make the world a better place. Join me on this journey as I blend my expertise in traditional finance with cutting-edge tech to build a smarter, more decentralized future.`}
       </p>
       <div className="my-8">
         <BlogPosts />
