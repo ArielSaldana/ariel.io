@@ -54,8 +54,9 @@ export default function RootLayout({
       lang="en"
       className={cx(
         "text-black bg-white dark:text-white dark:bg-black",
-        GeistSans.variable,
-        GeistMono.variable,
+        GeistSans.variable, // we should use the variable here, but tailwind v4 does not support it yet
+        GeistMono.variable, // we should use the variable here, but tailwind v4 does not support it yet
+        GeistSans.className,
       )}
     >
       <head>
