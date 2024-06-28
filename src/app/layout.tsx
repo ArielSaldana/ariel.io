@@ -49,8 +49,6 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  console.log(GeistMono.variable);
-  console.log(GeistSans.variable);
   return (
     <html
       lang="en"
